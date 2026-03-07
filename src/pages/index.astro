@@ -1,0 +1,32 @@
+---
+/* Halaman utama portfolio rzkjanuarr.com */
+import "../styles/global.css";
+import NavbarView from "../components/sections/Navbar/NavbarView.astro";
+import HeroView from "../components/sections/Hero/HeroView.astro";
+import MissionView from "../components/sections/Mission/MissionView.astro";
+import ServicesView from "../components/sections/Services/ServicesView.astro";
+import ProjectsView from "../components/sections/Projects/ProjectsView.astro";
+import FooterView from "../components/sections/Footer/FooterView.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rizki Januar — Android Engineer" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Rizki Januar — Android Engineer</title>
+  </head>
+  <body>
+    <NavbarView />
+    <main>
+      <HeroView />
+      <MissionView />
+      <!-- <ServicesView /> -->
+      <ProjectsView />
+    </main>
+    <FooterView />
+  </body>
+</html>

@@ -1,0 +1,18 @@
+---
+/* Komponen label bagian yang bisa digunakan ulang */
+interface Props {
+  label: string;
+  class?: string;
+}
+
+const { label, class: className } = Astro.props;
+---
+
+<span
+  class:list={[
+    "text-xs font-semibold uppercase tracking-widest text-text-brand",
+    className,
+  ]}
+>
+  {label}
+</span>

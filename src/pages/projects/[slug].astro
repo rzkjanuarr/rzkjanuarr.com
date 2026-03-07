@@ -1,0 +1,79 @@
+---
+/* Halaman detail proyek */
+import "../../styles/global.css";
+import NavbarView from "../../components/sections/Navbar/NavbarView.astro";
+import FooterView from "../../components/sections/Footer/FooterView.astro";
+import { projectsData } from "../../components/sections/Projects/ProjectsViewModel.astro";
+
+export function getStaticPaths() {
+  return projectsData.projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={project.description} />
+    <title>{project.title} — Rizki Januarr</title>
+  </head>
+  <body>
+    <NavbarView />
+    <main class="pt-28 pb-16 md:pt-32 md:pb-24">
+      <article class="max-w-4xl mx-auto px-4 md:px-8">
+        <!-- Tombol kembali -->
+        <a
+          href="/#projects"
+          class="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-text-primary transition-colors mb-8"
+        >
+          ← Back to Projects
+        </a>
+
+        <!-- Judul proyek -->
+        <h1 class="text-4xl md:text-5xl font-bold text-text-primary mb-8">
+          {project.title}
+        </h1>
+
+        <!-- Gambar proyek -->
+        <div
+          class="overflow-hidden rounded-2xl aspect-video bg-surface-tertiary mb-8"
+        >
+          <img
+            src={project.image}
+            alt={project.alt}
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        <!-- Deskripsi proyek -->
+        <div class="prose max-w-none">
+          <p class="text-text-secondary text-base md:text-lg leading-relaxed">
+            {project.description}
+          </p>
+        </div>
+
+        {project.playstore && (
+          <a
+            href={project.playstore}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 mt-6 px-5 py-2.5 bg-black text-white text-sm font-medium rounded-full hover:bg-gray-800 transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 0 1 0 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.3 2.3-8.636-8.632z"/>
+            </svg>
+            Download on Play Store
+          </a>
+        )}
+      </article>
+    </main>
+    <FooterView />
+  </body>
+</html>

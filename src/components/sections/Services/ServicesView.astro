@@ -1,0 +1,27 @@
+---
+/* Tampilan section servis */
+import SectionLabel from "../../ui/SectionLabel.astro";
+import ServiceCard from "../../ui/ServiceCard.astro";
+import { servicesData } from "./ServicesViewModel.astro";
+
+const { label, title, items } = servicesData;
+---
+
+<section class="py-16 md:py-24 bg-surface-secondary">
+  <div class="max-w-6xl mx-auto px-4 md:px-8">
+    <SectionLabel label={label} />
+    <h2 class="text-headline mt-4 mb-12">{title}</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {
+        items.map((item) => (
+          <ServiceCard
+            icon={item.icon}
+            title={item.title}
+            description={item.description}
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>

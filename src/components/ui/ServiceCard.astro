@@ -1,0 +1,22 @@
+---
+/* Komponen kartu servis yang bisa digunakan ulang */
+interface Props {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+const { icon, title, description } = Astro.props;
+---
+
+<div
+  class="flex flex-col items-start gap-4 p-6 rounded-2xl bg-surface-secondary border border-border-100 hover:shadow-lg transition-shadow duration-200"
+>
+  <div
+    class="w-12 h-12 flex items-center justify-center rounded-xl bg-surface-tertiary text-2xl"
+  >
+    {icon}
+  </div>
+  <h3 class="text-title">{title}</h3>
+  <p class="text-text-secondary text-sm leading-relaxed">{description}</p>
+</div>
