@@ -5,6 +5,7 @@ import { clientsData } from "./HeroViewModel.astro";
 
 const { greeting, name, role, image } = heroData;
 const { label, clients } = clientsData;
+const resumeUrl = "/assets/pdf/resume.pdf";
 ---
 
 <section
@@ -79,6 +80,32 @@ const { label, clients } = clientsData;
             )
           }
         </div>
+
+        <a
+          href={resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View resume PDF"
+          class="hero-resume-link md:ml-auto"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+            class="h-5 w-5"
+          >
+            <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z"
+            ></path>
+            <path d="M14 2v5h5"></path>
+            <path d="M9 14h6"></path>
+            <path d="M9 18h4"></path>
+          </svg>
+        </a>
       </div>
     </div>
   </div>
@@ -108,6 +135,23 @@ const { label, clients } = clientsData;
       rgba(250, 251, 255, 1) 30%,
       rgba(250, 251, 255, 0) 100%
     );
+  }
+
+  .hero-resume-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-secondary);
+    transition: color 0.2s ease;
+  }
+
+  .hero-resume-link:hover {
+    color: var(--color-text-brand);
+  }
+
+  .hero-resume-link:focus-visible {
+    outline: 2px solid var(--color-text-brand);
+    outline-offset: 2px;
   }
 </style>
 
