@@ -1,0 +1,52 @@
+[
+  {
+    "index": 1,
+    "title": "High-Converting Landing Pages",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 2,
+    "title": "Android App Design from Zero",
+    "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 3,
+    "title": "Modern Website Design from Scratch",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 4,
+    "title": "Scalable System Architecture Build",
+    "image": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 5,
+    "title": "Android App Development End-to-End",
+    "image": "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 6,
+    "title": "Insightful Statistics Dashboard",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 7,
+    "title": "E-Commerce Integration Suite",
+    "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 8,
+    "title": "Local & Global Payment Gateway Integration",
+    "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 9,
+    "title": "LLM AI Integration for Smart Features",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "index": 10,
+    "title": "Rapid Bug Fix & Stability Improvement",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80"
+  }
+]

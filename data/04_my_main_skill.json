@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Main Languages",
+    "value": "Typescript, Dart, PHP"
+  },
+  {
+    "label": "Currently Exploring",
+    "value": "Rust, Solidity"
+  },
+  {
+    "label": "Runtimes",
+    "value": "Bun"
+  },
+  {
+    "label": "Frameworks",
+    "value": "React Native, Flutter, Express.js, Laravel"
+  },
+  {
+    "label": "ORM",
+    "value": "Sequelize, Prisma, TypeORM"
+  },
+  {
+    "label": "Databases",
+    "value": "MySQL, PostgreSQL, MariaDB, Redis, MongoDB, Firebase"
+  },
+  {
+    "label": "Testing",
+    "value": "Vitest, Jest, Mocha"
+  },
+  {
+    "label": "Tools",
+    "value": "VS Code, NPM, Yarn, Bun, Postman, Insomnia, Figma, Jira, Trello, Notion"
+  },
+  {
+    "label": "CI/CD",
+    "value": "GitHub Actions, GitLab CI"
+  },
+  {
+    "label": "Version Control",
+    "value": "Git, GitHub, GitLab"
+  },
+  {
+    "label": "Real-Time",
+    "value": "WebSocket"
+  },
+  {
+    "label": "Payment Gateway",
+    "value": "Midtrans, Xendit"
+  },
+  {
+    "label": "Delivery Gateway",
+    "value": "Biteship"
+  },
+  {
+    "label": "API",
+    "value": "REST API, GraphQL"
+  }
+]

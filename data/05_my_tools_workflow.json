@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Design",
+    "value": "Figma, Google Stitch"
+  },
+  {
+    "label": "AI IDE",
+    "value": "Trae, Antigravity"
+  },
+  {
+    "label": "AI CLI",
+    "value": "Claude Code, Opencode, Codex CLI"
+  },
+  {
+    "label": "AI Models",
+    "value": "Claude Opus 4.6, Gemini 3.1 Pro, GLM-5, GPT 5.3 Codex"
+  },
+  {
+    "label": "AI Tools & Integration",
+    "value": "MCP (Model Context Protocol) tools integration for seamless AI-augmented development workflow."
+  },
+  {
+    "label": "Project Management",
+    "value": "Jira, Trello, Notion"
+  }
+]

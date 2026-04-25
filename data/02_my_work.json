@@ -1,0 +1,18 @@
+[
+  {
+    "company_name": "PT MAXXI TANI TEKNOLOGI",
+    "status": "Internship",
+    "periode": "2024 - 2025",
+    "role": "Backend Engineer",
+    "location": "Surabaya, Ciputra World",
+    "description": "Developed and maintained backend APIs, optimized data flow between services, and improved system stability for day-to-day product operations."
+  },
+  {
+    "company_name": "PT GIFTLINE ASIA p",
+    "status": "Contract",
+    "periode": "2025 - 2026",
+    "role": "Android Engineer",
+    "location": "Surabaya, Jambangan",
+    "description": "Built Android features with attention to user experience and performance, collaborating across teams to deliver stable and maintainable mobile releases."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "institution_name": "SMA WACHID HASYIM 2 TAMAN",
+    "status": "Academic",
+    "periode": "2017 - 2020",
+    "role": "Ilmu Pengetahuan Alam (IPA)",
+    "location": "Surabaya",
+    "gpa": "87.80 / 100",
+    "description": "Built strong analytical and problem-solving fundamentals through science-focused coursework, creating a solid base for technical studies."
+  },
+  {
+    "institution_name": "Universitas Negeri Surabaya",
+    "status": "Academic",
+    "periode": "2020 - 2024",
+    "role": "Manajemen Informatika",
+    "location": "Surabaya",
+    "gpa": "3.72 / 4.00",
+    "description": "Focused on software engineering fundamentals, application development, and practical implementation across collaborative academic projects."
+  },
+  {
+    "institution_name": "PT Prestasi Gemilang Indonesia",
+    "status": "Internship",
+    "periode": "2023",
+    "role": "Android Engineer",
+    "location": "Jakarta",
+    "gpa": null,
+    "description": "Supported by MSIB (Magang dan Studi Independen Bersertifikat), a flagship Kampus Merdeka program from Kemendikbudristek that enables students to intern and gain industry experience with leading partners for one semester."
+  },
+  {
+    "institution_name": "PT Arkana Teknologi Indonesia",
+    "status": "Internship",
+    "periode": "2023",
+    "role": "Software Developer",
+    "location": "Surabaya",
+    "gpa": null,
+    "description": "Contributed to software development tasks during internship, including feature implementation, debugging, and collaborative development workflow practices."
+  }
+]
