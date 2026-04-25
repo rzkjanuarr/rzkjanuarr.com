@@ -1,12 +1,92 @@
-[
-  {
-    "index": 1,
-    "title": "Lirante",
-    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1400&q=80"
-  },
-  {
-    "index": 2,
-    "title": "Lirante",
-    "image": "/images/37.png"
-  }
-]
+  [
+    {
+      "index": 1,
+      "title": "Sistem Generate Konten AI untuk Media Sosial",
+      "image": "/images/portfolio/01.png"
+    },
+    {
+      "index": 2,
+      "title": "Sistem Jemput Bola Klien melalui Google Maps",
+      "image": "/images/portfolio/02.png"
+    },
+    {
+      "index": 3,
+      "title": "G-Logistik - Sistem Manajemen Logistik Internal",
+      "image": "/images/portfolio/03.png"
+    },
+    {
+      "index": 4,
+      "title": "Siboyo - Ecommerce UMKM Surabaya",
+      "image": "/images/portfolio/04.png"
+    },
+    {
+      "index": 5,
+      "title": "SIPEVO - Sistem Pengaduan Vokasi UNESA",
+      "image": "/images/portfolio/05.png"
+    },
+    {
+      "index": 6,
+      "title": "Chili Chare - Sistem Pemesanan bagi Warga Ibu-ibu komplek",
+      "image": "/images/portfolio/06.png"
+    },
+    {
+      "index": 7,
+      "title": "Find Kantor - Sistem Pencarian Lokasi Kantor / CO-Working Space",
+      "image": "/images/portfolio/07.png"
+    },
+    {
+      "index": 8,
+      "title": "IESME - Sistem Siakad Magang Teknik Mesin UNESA",
+      "image": "/images/portfolio/08.png"
+    },
+    {
+      "index": 9,
+      "title": "S5FX - Sistem Pencatatan Jurnal Trading Forex",
+      "image": "/images/portfolio/09.png"
+    },
+    {
+      "index": 10,
+      "title": "MINDIG - Sistem Marketplace Jual Beli Produk Digital",
+      "image": "/images/portfolio/10.png"
+    },
+    {
+      "index": 11,
+      "title": "NEWS APP - Sistem Aplikasi Berita dengan Fitur Kustomisasi Konten",
+      "image": "/images/portfolio/11.png"
+    },
+    {
+      "index": 12,
+      "title": "Absensi - Sistem Absensi Berbasis Web dengan Fitur Georecognition",
+      "image": "/images/portfolio/12.png"
+    },
+    {
+      "index": 13,
+      "title": "Sistem Deteksi Website Legal / Ilegal berdasarkan Description",
+      "image": "/images/portfolio/13.png"
+    },
+    {
+      "index": 14,
+      "title": "Landing Page - Teman Ngaji Kamu!",
+      "image": "/images/portfolio/14.png"
+    },
+    {
+      "index": 15,
+      "title": "SIPEVO - Sistem Pengaduan Vokasi UNESA",
+      "image": "/images/portfolio/15.png"
+    },
+    {
+      "index": 16,
+      "title": "Open Source - Clean Architecture Express Madura",
+      "image": "/images/portfolio/16.png"
+    },
+    {
+      "index": 17,
+      "title": "Open Source - Clean Architecture Frontend React",
+      "image": "/images/portfolio/17.png"
+    },
+    {
+      "index": 18,
+      "title": "Open Source - Clean Architecture React Native",
+      "image": "/images/portfolio/18.png"
+    }
+  ]
